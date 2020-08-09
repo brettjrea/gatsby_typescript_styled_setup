@@ -30,7 +30,7 @@ npm install -g gatsby-cli
 ```
 
 ```
-gatsby new styled-site https://github.com/brettjrea/gatsby-typescript-styled
+gatsby new styled-site https://github.com/brettjrea/gatsby_typescript_styled_setup
 ```
 
 ```
