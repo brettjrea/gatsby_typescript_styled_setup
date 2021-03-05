@@ -49,3 +49,10 @@ npm install --save gatsby-plugin-react-helmet react-helmet
 ```
 gatsby develop
 ```
+
+*If you want to run other versions of Node you can set this apps version in a .nvmrc file with the following command.*
+```
+echo "14.16.0" > .nvmrc
+```
+
+*For this app gatsby develop will still use npm and use the set version.*
