@@ -1,4 +1,4 @@
-# gatsby_typescript_styled_setup
+# Gatsby_Typescript_Styled_Components
 
 ```
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
