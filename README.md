@@ -47,7 +47,7 @@ npm install --save gatsby-plugin-react-helmet react-helmet
 ```
 
 ```
-gatsby develop
+npm run develop
 ```
 
 *If you want to run other versions of Node you can set this apps version in a .nvmrc file with the following command.*
@@ -61,5 +61,5 @@ echo "14.16.0" > .nvmrc
 
 ```
 cd my-frontend
-gatsby develop
+npm run develop
 ```
