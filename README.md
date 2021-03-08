@@ -63,3 +63,7 @@ echo "14.16.0" > .nvmrc
 cd my-frontend
 npm run develop
 ```
+
+---
+
+You might now want to [install Theia](https://github.com/brettjrea/Debian_Theia_IDE_Patched) a browser based IDE built on Typescript.
