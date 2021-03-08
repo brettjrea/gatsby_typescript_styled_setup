@@ -30,11 +30,11 @@ npm install -g gatsby-cli
 ```
 
 ```
-gatsby new styled-site https://github.com/brettjrea/gatsby_typescript_styled_setup
+gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_setup
 ```
 
 ```
-cd styled-site
+cd my-frontend
 ```
 
 ```
@@ -56,3 +56,12 @@ echo "14.16.0" > .nvmrc
 ```
 
 *For this app gatsby develop will still use npm and use the set version.*
+
+*When using multiple versions of node you can set the default necessary for this app with the following command.*
+
+*Quickly start after a shutdown or reboot.*
+
+```
+cd my-frontend
+gatsby develop
+```
