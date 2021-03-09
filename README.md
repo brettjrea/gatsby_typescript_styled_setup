@@ -89,7 +89,7 @@ echo "14.16.0" > .nvmrc
 gatsby develop:
 ```
 
-or to ensure the .nvmrc is read use
+or to ensure the .nvmrc file is being read, use
 
 ```
 npm run develop
