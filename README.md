@@ -97,7 +97,7 @@ npm run develop
 
 *The above command used echo to set this apps node version in a .nvmrc file so I chose to use npm run develop instead of gatsby develop.*
 
-*Quickly start after a shutdown or reboot.*
+### *Quickly start after a shutdown or reboot.*
 
 ```
 cd my-frontend
