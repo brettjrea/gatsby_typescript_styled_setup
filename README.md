@@ -18,6 +18,7 @@ cd my-frontend
 npm install styled-components gatsby-plugin-styled-components babel-plugin-styled-components
 npm i --save-dev @types/styled-components
 npm install --save gatsby-plugin-react-helmet react-helmet
+npm install --save gatsby-source-strapi
 echo "14.16.0" > .nvmrc
 npm run develop
 ```
@@ -75,6 +76,12 @@ npm i --save-dev @types/styled-components
 
 ```
 npm install --save gatsby-plugin-react-helmet react-helmet
+```
+
+### Add strapi.io source plugin:
+
+```
+npm install --save gatsby-source-strapi
 ```
 
 ### Create .nvmrc file to set node version to use:
