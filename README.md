@@ -23,10 +23,6 @@ npm run develop
 
 *The above command used echo to set this apps node version in a .nvmrc file so you need to run the app with NPM instead of yarn with the following command.*
 
-```
-
-```
-
 *Quickly start after a shutdown or reboot.*
 
 ```
