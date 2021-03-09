@@ -1,61 +1,31 @@
 # Gatsby_Typescript_Styled_Components
 
-```
-sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
-```
+## Prerequisites:
+
+* [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)
+
+---
+
+## Commands:
 
 ```
-sudo apt install curl git
-```
-
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-```
-```
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-```
-
-```
-nvm install --lts
-```
-
-```
+sudo apt install git
 npm install -g typescript
-```
-
-```
 npm install -g gatsby-cli
-```
-
-```
 gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_setup
-```
-
-```
 cd my-frontend
-```
-
-```
 npm install styled-components gatsby-plugin-styled-components babel-plugin-styled-components
 npm i --save-dev @types/styled-components
-```
-
-```
 npm install --save gatsby-plugin-react-helmet react-helmet
-```
-
-```
+echo "14.16.0" > .nvmrc
 npm run develop
 ```
 
-*If you want to run other versions of Node you can set this apps version in a .nvmrc file with the following command.*
-```
-echo "14.16.0" > .nvmrc
+*The above command used echo to set this apps node version in a .nvmrc file so you need to run the app with NPM instead of yarn with the following command.*
+
 ```
 
-*For this app gatsby develop will still use npm and use the set version.*
+```
 
 *Quickly start after a shutdown or reboot.*
 
