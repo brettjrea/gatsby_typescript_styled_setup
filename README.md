@@ -6,7 +6,7 @@
 
 ---
 
-## Quickscript:
+### Quickscript:
 
 ```
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
@@ -32,7 +32,7 @@ sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
 
 ---
 
-## Install required programs:
+### Install required programs:
 
 ```
 sudo apt install git
@@ -40,24 +40,71 @@ sudo apt install git
 
 ---
 
-## Commands:
+### Install Typescript NPM package globally:
 
 ```
-
 npm install -g typescript
+```
+
+### Install Gatsby CLI NPM package globally:
+
+```
 npm install -g gatsby-cli
+```
+
+### Create Gatsby project from Git repo:
+
+```
 gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_setup
+```
+
+### Change directory to project:
+
+```
 cd my-frontend
+```
+
+### Add Styled-Components NPM package to project:
+
+```
 npm install styled-components gatsby-plugin-styled-components babel-plugin-styled-components
 npm i --save-dev @types/styled-components
+```
+
+### Add React-Helmet NPM package for head:
+
+```
 npm install --save gatsby-plugin-react-helmet react-helmet
+```
+
+### Create .nvmrc file to set node version to use:
+
+```
 echo "14.16.0" > .nvmrc
+```
+
+### Run Gatsby develop:
+
+```
+gatsby develop:
+```
+
+or to ensure the .nvmrc is read use
+
+```
 npm run develop
 ```
 
 *The above command used echo to set this apps node version in a .nvmrc file so I chose to use npm run develop instead of gatsby develop.*
 
 *Quickly start after a shutdown or reboot.*
+
+```
+cd my-frontend
+gatsby develop
+```
+
+or
 
 ```
 cd my-frontend
