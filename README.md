@@ -6,10 +6,26 @@
 
 ---
 
-## Commands:
+## Always be updating:
+
+```
+sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
+```
+
+---
+
+## Install required programs:
 
 ```
 sudo apt install git
+```
+
+---
+
+## Commands:
+
+```
+
 npm install -g typescript
 npm install -g gatsby-cli
 gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_setup
