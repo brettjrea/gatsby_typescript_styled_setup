@@ -21,7 +21,7 @@ echo "14.16.0" > .nvmrc
 npm run develop
 ```
 
-*The above command used echo to set this apps node version in a .nvmrc file so you need to run the app with NPM instead of yarn with the following command.*
+*The above command used echo to set this apps node version in a .nvmrc file so I chose to use npm run develop instead of gatsby develop.*
 
 *Quickly start after a shutdown or reboot.*
 
