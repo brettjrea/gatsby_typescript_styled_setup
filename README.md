@@ -17,7 +17,6 @@ gatsby new my-frontend https://github.com/brettjrea/gatsby_typescript_styled_set
 cd my-frontend
 npm install styled-components gatsby-plugin-styled-components babel-plugin-styled-components
 npm i --save-dev @types/styled-components
-npm install -D twin.macro @emotion/react @emotion/styled gatsby-plugin-emotion
 npm install --save gatsby-plugin-react-helmet react-helmet
 npm install --save gatsby-source-strapi
 echo "14.16.0" > .nvmrc
@@ -71,7 +70,6 @@ cd my-frontend
 ```
 npm install styled-components gatsby-plugin-styled-components babel-plugin-styled-components
 npm i --save-dev @types/styled-components
-npm install -D twin.macro @emotion/react @emotion/styled gatsby-plugin-emotion
 ```
 
 ### Add React-Helmet NPM package for head:
